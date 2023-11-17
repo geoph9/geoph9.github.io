@@ -6,7 +6,7 @@ template = "section.html"
 
 [extra]
 header = {title = "Georgios Karakasidis", img = "img/third_eye.jpg" }
-section_path = "blog/_index.md"
+section_path = "_index.md"
 max_posts = 4
 social_media_card = "img/social_cards/index.jpg"
 +++
