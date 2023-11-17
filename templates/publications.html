@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block main_content %}
+<div class="container max-w-3xl mx-auto px-4">
+    {{ macros_page_header::page_header(title=section.title) }}
+
+  {# <article class="prose prose-indigo max-w-3xl"> #}
+    {#  {{ section.content | safe }} #}
+  {#</article> #}
+  {% for publication_type in section.extra.publications_types -%}
+    {# <div class ="py-4"> #}
+      {# <h2 class=""> {{publication_type.title}} </h2> #}
+    {# </div> #}
+    &nbsp;
+    <ul>
+    {% for page in section.pages  -%}
+      {% if page.extra.type == publication_type.type -%}
+      <li class="">
+        {{ publication::summary(page=page) }}
+      </li>
+      {% endif  -%}
+    {% endfor -%}
+    </ul>
+  {% endfor -%}
+</div>
+{% endblock main_content %}
