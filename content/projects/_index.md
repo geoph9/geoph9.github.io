@@ -4,5 +4,5 @@ sort_by = "weight"
 template = "cards.html"
 
 [extra]
-social_media_card = "img/social_cards/projects.jpg"
+social_media_card = "img/third_eye.jpg"
 +++

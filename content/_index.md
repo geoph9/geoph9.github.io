@@ -8,7 +8,7 @@ template = "section.html"
 header = {title = "Georgios Karakasidis", img = "img/third_eye.jpg" }
 section_path = "_index.md"
 max_posts = 4
-social_media_card = "img/social_cards/index.jpg"
+social_media_card = "img/third_eye.jpg"
 +++
 
 I am a PhD student at the Centre for Speech Technology Research (CSTR) at the University of Edinburgh. My research focuses on the application of curriculum learning for unsupervised and lightly-supervised speech recognition models, and I am supervised by [Peter Bell](https://homepages.inf.ed.ac.uk/pbell1/) and [Ondrej Klejch](https://www.ondrejklejch.cz/).
