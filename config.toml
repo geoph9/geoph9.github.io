@@ -154,6 +154,7 @@ socials = [
     # { name = "soundcloud", url = "https://soundcloud.com/oskerwyld", icon = "soundcloud" },
     # { name = "instagram", url = "https://instagram.com/oskerwyld", icon = "instagram" },
     # { name = "youtube", url = "https://youtube.com/@oskerwyld", icon = "youtube" },
+    { name = "linkedin", url = "https://www.linkedin.com/in/geoph9/", icon = "linkedin" },
     { name = "spotify", url = "https://open.spotify.com/user/acjh1j8metdyaed96v4rur93g?si=babecb09568e4b51", icon = "spotify" },
 ]
 
