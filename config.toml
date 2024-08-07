@@ -2,7 +2,7 @@ base_url = "https://geoph9.github.io"
 title = "~/geoph9/"
 description = "This is the personal website of geoph9."
 author = "geoph9"
-generate_feed = true
+generate_feeds = true
 compile_sass = true
 minify_html = true
 
