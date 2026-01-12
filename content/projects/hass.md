@@ -4,6 +4,6 @@ description = "A gnome-shell extension meant to work as an interface for some ba
 weight = 3
 
 [extra]
-remote_image = "https://github-readme-stats.vercel.app/api/pin/?username=geoph9&repo=hass-gshell-extension"
+remote_image = "https://github-readme-stats-fast.vercel.app/api/pin/?username=geoph9&repo=hass-gshell-extension"
 link_to = "https://github.com/geoph9/hass-gshell-extension"
 +++

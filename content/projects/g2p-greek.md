@@ -4,6 +4,6 @@ description = "A grapheme-to-phoneme (G2P) conversion toolkit for Greek. Useful 
 weight = 4
 
 [extra]
-remote_image = "https://github-readme-stats.vercel.app/api/pin/?username=geoph9&repo=GraphemeToPhoneme-Greek"
+remote_image = "https://github-readme-stats-fast.vercel.app/api/pin/?username=geoph9&repo=GraphemeToPhoneme-Greek"
 link_to = "https://github.com/geoph9/GraphemeToPhoneme-Greek"
 +++

@@ -4,6 +4,6 @@ description = "Repository for the ''Accent Adaptation Through the Use of Synthes
 weight = 7
 
 [extra]
-remote_image = "https://github-readme-stats.vercel.app/api/pin/?username=geoph9&repo=accent-adaptation-through-tts"
+remote_image = "https://github-readme-stats-fast.vercel.app/api/pin/?username=geoph9&repo=accent-adaptation-through-tts"
 link_to = "https://github.com/geoph9/accent-adaptation-through-tts"
 +++

@@ -4,6 +4,6 @@ description = "Contains a list of freely available Greek speech recognition data
 weight = 10
 
 [extra]
-remote_image = "https://github-readme-stats.vercel.app/api/pin/?username=geoph9&repo=speech-recognition-gr"
+remote_image = "https://github-readme-stats-fast.vercel.app/api/pin/?username=geoph9&repo=speech-recognition-gr"
 link_to = "https://github.com/geoph9/speech-recognition-gr"
 +++

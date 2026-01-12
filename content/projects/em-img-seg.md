@@ -4,6 +4,6 @@ description = "Rust implementation of the Expectation-Maximization (EM) algorith
 weight = 7
 
 [extra]
-remote_image = "https://github-readme-stats.vercel.app/api/pin/?username=geoph9&repo=em-img-seg"
+remote_image = "https://github-readme-stats-fast.vercel.app/api/pin/?username=geoph9&repo=em-img-seg"
 link_to = "https://github.com/geoph9/em-img-seg"
 +++

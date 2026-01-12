@@ -5,6 +5,6 @@ weight = 1
 
 
 [extra]
-remote_image = "https://github-readme-stats.vercel.app/api/pin/?username=speechbrain&repo=speechbrain"
+remote_image = "https://github-readme-stats-fast.vercel.app/api/pin/?username=speechbrain&repo=speechbrain"
 link_to = "https://speechbrain.github.io/"
 +++
