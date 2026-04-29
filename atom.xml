@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="https://geoph9.github.io/feed_style.xsl" type="text/xsl"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:base="http://purl.org/atompub/base/1.0/" xml:lang="en" xml:base="https:&#x2F;&#x2F;geoph9.github.io">
+    
+    <str:translations xmlns:str="https://github.com/welpo/tabi">
+        <str:this_is_a_web_feed>This is a web feed</str:this_is_a_web_feed>
+        <str:also_known_as_an_Atom_feed>also known as an Atom feed</str:also_known_as_an_Atom_feed>
+        <str:subscribe>Subscribe</str:subscribe>
+        <str:by_copying_the_URL_from_the_address_bar_into_your_newsreader>by copying the URL from the address bar into your newsreader</str:by_copying_the_URL_from_the_address_bar_into_your_newsreader>
+        <str:visit>Visit</str:visit>
+        <str:to_learn_more_and_get_started>to learn more and get started</str:to_learn_more_and_get_started>
+        <str:it_s_free>It&#x27;s free</str:it_s_free>
+        <str:website>website</str:website>
+        <str:recent_posts>Recent posts</str:recent_posts>
+    </str:translations>
+
+    <title>~/geoph9/</title>
+        <subtitle>This is the personal website of geoph9.</subtitle>
+    <link href="https://geoph9.github.io/atom.xml" rel="self" type="application/atom+xml"/>
+    <link href="https://geoph9.github.io"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2024-10-16T00:00:00+00:00</updated>
+    <id>https://geoph9.github.io/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Open-Source Conversational AI with SpeechBrain 1.0</title>
+        <published>2024-10-16T00:00:00+00:00</published>
+        <updated>2024-10-16T00:00:00+00:00</updated>
+        <author>
+            <name>geoph9</name>
+        </author>
+        <link rel="alternate" href="https://geoph9.github.io/publications/speechbrain1/" type="text/html"/>
+        <id>https://geoph9.github.io/publications/speechbrain1/</id>
+        </entry>
+    <entry xml:lang="en">
+        <title>Comparison and Analysis of New Curriculum Criteria for End-to-End ASR</title>
+        <published>2024-08-01T00:00:00+00:00</published>
+        <updated>2024-08-01T00:00:00+00:00</updated>
+        <author>
+            <name>geoph9</name>
+        </author>
+        <link rel="alternate" href="https://geoph9.github.io/publications/curriculum-learning-asr-journal/" type="text/html"/>
+        <id>https://geoph9.github.io/publications/curriculum-learning-asr-journal/</id>
+        </entry>
+    <entry xml:lang="en">
+        <title>Mid-Senior Speech Scientist</title>
+        <published>2024-06-01T00:00:00+00:00</published>
+        <updated>2024-06-01T00:00:00+00:00</updated>
+        <author>
+            <name>geoph9</name>
+        </author>
+        <link rel="alternate" href="https://geoph9.github.io/experience/omilia/" type="text/html"/>
+        <id>https://geoph9.github.io/experience/omilia/</id>
+        </entry>
+    <entry xml:lang="en">
+        <title>Machine Learning Engineer</title>
+        <published>2024-06-01T00:00:00+00:00</published>
+        <updated>2024-06-01T00:00:00+00:00</updated>
+        <author>
+            <name>geoph9</name>
+        </author>
+        <link rel="alternate" href="https://geoph9.github.io/experience/quadible/" type="text/html"/>
+        <id>https://geoph9.github.io/experience/quadible/</id>
+        </entry>
+    <entry xml:lang="en">
+        <title>Multilingual TTS Accent Impressions for Accented ASR</title>
+        <published>2023-07-01T00:00:00+00:00</published>
+        <updated>2023-07-01T00:00:00+00:00</updated>
+        <author>
+            <name>geoph9</name>
+        </author>
+        <link rel="alternate" href="https://geoph9.github.io/publications/accent-adapt/" type="text/html"/>
+        <id>https://geoph9.github.io/publications/accent-adapt/</id>
+        </entry>
+    <entry xml:lang="en">
+        <title>Machine Learning Engineer</title>
+        <published>2023-03-01T00:00:00+00:00</published>
+        <updated>2023-03-01T00:00:00+00:00</updated>
+        <author>
+            <name>geoph9</name>
+        </author>
+        <link rel="alternate" href="https://geoph9.github.io/experience/agroknow/" type="text/html"/>
+        <id>https://geoph9.github.io/experience/agroknow/</id>
+        </entry>
+    <entry xml:lang="en">
+        <title>Comparison and Analysis of New Curriculum Criteria for End-to-End ASR</title>
+        <published>2022-08-01T00:00:00+00:00</published>
+        <updated>2022-08-01T00:00:00+00:00</updated>
+        <author>
+            <name>geoph9</name>
+        </author>
+        <link rel="alternate" href="https://geoph9.github.io/publications/curriculum-learning-asr/" type="text/html"/>
+        <id>https://geoph9.github.io/publications/curriculum-learning-asr/</id>
+        </entry>
+    <entry xml:lang="en">
+        <title>Explainable Empirical Risk Minimization</title>
+        <published>2022-01-01T00:00:00+00:00</published>
+        <updated>2022-01-01T00:00:00+00:00</updated>
+        <author>
+            <name>geoph9</name>
+        </author>
+        <link rel="alternate" href="https://geoph9.github.io/publications/explainable-ml/" type="text/html"/>
+        <id>https://geoph9.github.io/publications/explainable-ml/</id>
+        </entry>
+    <entry xml:lang="en">
+        <title>Research Assistant</title>
+        <published>2021-01-01T00:00:00+00:00</published>
+        <updated>2021-01-01T00:00:00+00:00</updated>
+        <author>
+            <name>geoph9</name>
+        </author>
+        <link rel="alternate" href="https://geoph9.github.io/experience/aalto/" type="text/html"/>
+        <id>https://geoph9.github.io/experience/aalto/</id>
+        </entry>
+    <entry xml:lang="en">
+        <title>Junior Machine Learning Engineer</title>
+        <published>2019-03-01T00:00:00+00:00</published>
+        <updated>2019-03-01T00:00:00+00:00</updated>
+        <author>
+            <name>geoph9</name>
+        </author>
+        <link rel="alternate" href="https://geoph9.github.io/experience/pobuca/" type="text/html"/>
+        <id>https://geoph9.github.io/experience/pobuca/</id>
+        </entry>
+</feed>
