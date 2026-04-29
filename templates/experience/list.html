@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+
+{% block main_content %}
+<div class="experience-page">
+  <h1 class="experience-heading">{{ section.title }}</h1>
+
+  <div class="timeline">
+    {% for page in section.pages %}
+
+    <div class="timeline-card">
+      <div class="card-header">
+        <div class="timeline-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+               fill="none" stroke="currentColor" stroke-width="2"
+               stroke-linecap="round" stroke-linejoin="round">
+            <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+            <path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"></path>
+          </svg>
+        </div>
+        <div class="card-titles">
+          <h3 class="job-title">{{ page.title }}</h3>
+          <p class="company-name">{{ page.extra.company }}</p>
+        </div>
+        <span class="date-range">
+          {{ page.extra.date_start }} – {{ page.extra.date_end | default(value="Present") }}
+        </span>
+      </div>
+      <div class="job-description">
+        {{ page.content | safe }}
+      </div>
+    </div>
+
+    {% if not loop.last %}
+    <div class="connector">
+      <div class="connector-line"></div>
+      <span class="connector-arrow">↑</span>
+      <div class="connector-line"></div>
+    </div>
+    {% endif %}
+
+    {% endfor %}
+  </div>
+</div>
+{% endblock main_content %}

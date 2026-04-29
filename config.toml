@@ -13,11 +13,12 @@ taxonomies = [
 ]
 
 [markdown]
+# external_links_target_blank = true
+# highlight_code = true
+# highlight_theme = "css"
 external_links_target_blank = true
-highlight_code = true
-highlight_theme = "css"
+highlighting = { theme = "nord" }
 
-default_language = "en"
 
 [extra]
 
@@ -133,6 +134,7 @@ menu = [
     # { name = "pubs", url = "research", trailing_slash = true },
     { name = "projects", url = "projects", trailing_slash = true },
     { name = "publications", url = "publications", trailing_slash = true },
+    { name = "experience", url = "experience", trailing_slash = true },
     # { name = "archive", url = "archive", trailing_slash = true },
     # { name = "tags", url = "tags", trailing_slash = true },
 ]
@@ -243,3 +245,4 @@ avatar = true
 voting = true
 page_author_hashes = ""  # hash (or list of hashes) of the author.
 lazy_loading = true  # Loads when the comments are in the viewport (using the Intersection Observer API).
+
