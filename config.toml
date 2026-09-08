@@ -38,7 +38,7 @@ theme_switcher = true
 # If you wish to use only a dark or light theme, disable the `theme_switcher` above and set this variable.
 # If `theme_switcher` is enabled, this will be the theme that is visible to users who have JavaScript disabled.
 # Defaults to "light", if unset.
-default_theme = "light"
+default_theme = "dark"
 
 # Choose the colourscheme (skin) for the theme. Default is "teal".
 # Skin available: blue, lavender, mint, red, sakura, teal, monochrome, lowcontrast_orange, lowcontrast_peach, lowcontrast_pink, indigo_ingot, evangelion
