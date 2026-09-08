@@ -13,7 +13,7 @@
                         {% for menu in config.extra.menu %}
                             <li>
                                 {% set trailing_slash = menu.trailing_slash | default(value=true) %}
-                                <a class="nav-links no-hover-padding" href="{{ get_url(path=menu.url, lang=lang, trailing_slash=trailing_slash) }}"/>
+                                <a class="nav-links no-hover-padding" href="{{ get_url(path=menu.url, lang=lang, trailing_slash=trailing_slash) }}">
                                 {{ macros_translate::translate(key=menu.name, default=menu.name) }}
                                 </a>
                             </li>
@@ -46,7 +46,7 @@
                                                     <a type="Button" href="{{ config.base_url }}/{{ lcode }}{{ current_path | default(value="/") | safe }}">{{ language_name }}</a>
                                                 {%- else -%}
                                                     {# If it's not, replace the current language code in the URL with the new one #}
-                                                    <a type="Button" href="{{ current_url | replace(from='/' ~ lang ~ '/', to='/' ~ lcode ~ '/') }}"/>{{ language_name }}</a>
+                                                    <a type="Button" href="{{ current_url | replace(from='/' ~ lang ~ '/', to='/' ~ lcode ~ '/') }}">{{ language_name }}</a>
                                                 {%- endif -%}
                                             {%- endif -%}
                                         {%- endif -%}
